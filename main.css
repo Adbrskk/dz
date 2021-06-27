@@ -6,10 +6,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: url("images/main-bgc.png");
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 a {
@@ -30,7 +26,10 @@ a {
 }
 
 .header {
+    background-image: url("images/main-bgc.png");
     height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .header__navigation ul {
@@ -46,14 +45,10 @@ a {
 
 .header__navigation a:hover {
     text-shadow: -8px 8px 0 rgba(255, 0, 0, 0.5);
-    font-size: 18px;
     color: #f3a4a4;
-    top: 1px;
-    left: 0;
-    z-index: 2;
 }
 
-.header_to-cabinet {
+.header__to-cabinet {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,7 +60,7 @@ a {
     padding: 10px 30px;
 }
 
-.header_to-cabinet:hover {
+.header__to-cabinet:hover {
     color: #ffffff;
     font-size: 16px;
     font-weight: 600;
